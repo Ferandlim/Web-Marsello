@@ -1,0 +1,420 @@
+@font-face {
+  font-family: bos;
+  src: url(bos.ttf);
+}
+@font-face {
+  font-family: cgl;
+  src: url(CocoGothic_Light.ttf);
+}
+@font-face {
+  font-family: ml;
+  src: url(Manrope-Light.otf);
+}
+@font-face {
+  font-family: mr;
+  src: url(Manrope-Regular.otf);
+}
+header .p, header .a, header .t {
+  font-size: 210px;
+  margin: 130px 0;
+  font-family: mr;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+}
+
+/*Navigation*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 150px;
+  /*menu-toogle*/
+}
+nav .title {
+  font-size: 45px;
+  font-family: bos;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin-top: 38px;
+}
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-family: bos;
+}
+nav .menu-toggle {
+  display: none;
+}
+
+header {
+  display: flex;
+  padding: 0 11%;
+  padding-top: -80px;
+}
+header .a {
+  padding: 0 50px;
+}
+header .t {
+  padding-left: 50px;
+}
+header .s {
+  background-position: top;
+  background-size: 430px;
+  background-repeat: no-repeat;
+  background-image: url(image/pasta-fork-removebg-preview.png);
+}
+header .s .kotak {
+  height: 640px;
+  width: 300px;
+}
+
+/*Profil1*/
+.text-kanan {
+  background-image: url(Image/1680200.png);
+  background-position: right;
+  background-size: 1900px;
+  width: 100%;
+  height: 584px;
+  z-index: 0;
+}
+
+.textkiri {
+  width: 30%;
+  padding: 93px 100px;
+  background-color: #383b26;
+  color: white;
+  position: absolute;
+  z-index: 1;
+}
+.textkiri h2 {
+  font-size: 35px;
+  padding-right: 100px;
+}
+.textkiri p {
+  font-size: 15px;
+  padding-right: 200px;
+}
+.textkiri ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 40px;
+}
+.textkiri ul li {
+  font-size: 15px;
+}
+.textkiri ul li:before {
+  height: 14px;
+  width: 14px;
+  background-color: unset;
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  margin-right: 40px;
+  border: 0.2px solid aliceblue;
+}
+
+/*Profil 2*/
+.teks1 {
+  font-size: 30px;
+  text-align: center;
+  margin: 70px 0;
+  font-family: ml;
+}
+.teks1 .ap1 {
+  text-align: center;
+}
+.teks1 .ap2 {
+  color: white;
+}
+.teks1 .ap2-c {
+  color: #8c7b3f;
+}
+
+.list-about-photo {
+  display: flex;
+  margin: 0 12%;
+  font-family: ml;
+}
+.list-about-photo div .photo1 {
+  height: 180px;
+  width: 350px;
+  background-image: url(Image/dovile-ramoskaite-xX9SmqQCbFY-unsplash.png);
+  background-size: 100%;
+}
+.list-about-photo div .photo2 {
+  height: 180px;
+  width: 350px;
+  background-image: url(Image/manusia.png);
+  background-size: 100%;
+}
+.list-about-photo div .photo3 {
+  height: 180px;
+  width: 350px;
+  background-image: url(Image/dan-gold-5O1ddenSM4g-unsplash.png);
+  background-size: 100%;
+}
+.list-about-photo div .photo-sentence {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/*Profil3*/
+.about3 {
+  display: flex;
+  justify-content: space-between;
+  font-family: ml;
+}
+.about3 .about3-kiri {
+  width: 32%;
+  margin: 6% 12%;
+}
+.about3 .about3-kiri .about3-kiri-t1 {
+  font-size: 28px;
+  margin-bottom: 60px;
+  padding-right: 120px;
+}
+.about3 .about3-kiri .about3-kiri-t2 {
+  margin: 20px 0;
+  font-size: 15px;
+}
+
+.about3 img {
+  height: 250px;
+  width: 50%;
+  margin-top: 210px;
+  margin-right: 40px;
+}
+
+/*Menu*/
+.menu-title {
+  text-align: center;
+  margin: 20px 33%;
+  font-size: 40px;
+  font-family: mr;
+}
+
+.menu {
+  display: flex;
+  font-family: ml;
+}
+.menu .menu-photo1, .menu .menu-photo2 {
+  width: 25%;
+}
+.menu .menu-photo1 .menu-photo1-1, .menu .menu-photo2 .menu-photo1-1 {
+  height: 700px;
+  width: 100%;
+  background-image: url(Image/Bruschetta-recipe.png);
+  background-size: 103%;
+  margin-bottom: 2210px;
+  background-repeat: no-repeat;
+}
+.menu .menu-photo1 .menu-photo1-2, .menu .menu-photo2 .menu-photo1-2 {
+  background-image: url(Image/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.png);
+  width: 100%;
+  height: 700px;
+  background-size: 103%;
+  background-repeat: no-repeat;
+}
+.menu .menu-photo1 .menu-photo2-1, .menu .menu-photo2 .menu-photo2-1 {
+  background-image: url(Image/Caesar-Salad-Recipe-3.png);
+  width: 100%;
+  height: 700px;
+  background-size: 103%;
+  background-repeat: no-repeat;
+  margin-top: 1500px;
+}
+.menu .menu-photo1 .menu-photo2-2, .menu .menu-photo2 .menu-photo2-2 {
+  background-image: url(Image/top-view-pepperoni-pizza-sliced-into-six-slices_141793-2157.png);
+  width: 100%;
+  height: 700px;
+  background-size: 103%;
+  background-repeat: no-repeat;
+  margin-top: 2000px;
+}
+.menu .menu-list {
+  width: 50%;
+  text-align: center;
+}
+.menu .menu-list .soups-salad, .menu .menu-list .pasta, .menu .menu-list .pizza {
+  margin-top: 100px;
+}
+.menu .menu-list .menu-list-title {
+  font-size: 30px;
+}
+.menu .menu-list-food {
+  margin-left: 11%;
+  padding-top: 3%;
+  padding-bottom: 5%;
+  display: flex;
+  width: 79%;
+  border-top: 1px solid #707070;
+}
+.menu .menu-list-food .menu-list-food-kiri {
+  text-align: left;
+  font-size: 16px;
+  margin-right: 8%;
+  width: 90%;
+}
+.menu .menu-list-food .menu-list-food-kiri p:nth-child(1) {
+  font-size: 25px;
+}
+.menu .menu-list-food .menu-list-food-kiri p:nth-child(2) {
+  width: 50%;
+  margin-bottom: -10px;
+  color: #707070;
+}
+.menu .menu-list-food .menu-list-food-kanan {
+  text-align: right;
+  margin-top: 55px;
+  color: #707070;
+}
+
+.menu-list-food:nth-child(7) {
+  border-bottom: 1px solid #707070;
+}
+
+.book {
+  text-align: center;
+  font-family: ml;
+}
+.book button {
+  padding: 15px 25px;
+  background-color: #8f845e;
+  border: unset;
+  border-radius: 10px;
+  margin-top: 50px;
+  color: white;
+  margin-bottom: 100px;
+}
+
+/*History*/
+.place {
+  height: 400px;
+  width: 100%;
+  background-image: url(image/1680200.png);
+  background-size: 100%;
+  border: unset;
+}
+
+.space {
+  display: flex;
+  margin-top: 80px;
+  font-family: ml;
+}
+.space .space-kiri {
+  width: 60%;
+  margin-left: 10%;
+  padding-right: 230px;
+  line-height: 2;
+}
+.space .space-kiri p:nth-child(1) {
+  font-size: 35px;
+}
+.space .space-kiri p:nth-child(2) {
+  margin-bottom: 50px;
+}
+.space .space-kiri p:nth-child(3) {
+  margin-bottom: 240px;
+}
+.space .space-kanan {
+  height: 680px;
+  width: 60%;
+  background-image: url(Image/f9f924bba137b62b6b47cb035beff286.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.button-circle {
+  display: flex;
+}
+.button-circle .button-circle1 {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #b7b49e;
+  margin-right: 15px;
+}
+.button-circle .button-circle2 {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: unset;
+  border: 1px solid black;
+}
+
+/*footer*/
+footer {
+  margin: 7%;
+  line-height: 1;
+}
+footer p {
+  font-size: 30px;
+  font-family: margin-left;
+}
+footer .c1 {
+  color: #746114;
+}
+footer .c2 {
+  color: white;
+}
+footer p:nth-child(3) {
+  font-size: 17px;
+}
+footer .container .footer-space {
+  width: 7%;
+}
+footer .container .booking-table {
+  width: 100%;
+  border: 1px solid;
+}
+footer .container .booking-table .booking-table1, footer .container .booking-table .booking-table2 {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+footer .container .booking-table .booking-table1 .booking-table1-1 input, footer .container .booking-table .booking-table2 .booking-table1-1 input {
+  background-color: unset;
+  border: unset;
+  font-size: 14px;
+  border-bottom: 1px solid black;
+  opacity: 0.8;
+  margin-left: 88px;
+  padding-right: 250px;
+  margin-right: 80px;
+  font-family: ml;
+}
+footer .container .booking-table .booking-table1 .booking-table1-2 input, footer .container .booking-table .booking-table2 .booking-table1-2 input {
+  background-color: unset;
+  border: unset;
+  font-size: 14px;
+  border-bottom: 1px solid black;
+  opacity: 0.8;
+  padding-right: 250px;
+  font-family: ml;
+}
+footer .container .booking-table .booking-table1 .booking-table2-1 select, footer .container .booking-table .booking-table1 .booking-table2-2 select, footer .container .booking-table .booking-table1 .booking-table2-3 select, footer .container .booking-table .booking-table2 .booking-table2-1 select, footer .container .booking-table .booking-table2 .booking-table2-2 select, footer .container .booking-table .booking-table2 .booking-table2-3 select {
+  background-color: unset;
+  border: unset;
+  margin-left: 88px;
+  padding-right: 150px;
+  font-size: 14px;
+  margin-right: 80px;
+  border-bottom: 1px solid;
+  opacity: 0.8;
+}
+
+.end {
+  height: 200px;
+  width: 100%;
+  background-color: #8f845e;
+}
+
+/*# sourceMappingURL=style.css.map */

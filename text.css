@@ -1,0 +1,415 @@
+body{
+    margin: 0;
+    background-color: white;
+}
+/*Font-Family*/
+@font-face {
+    font-family: bos;
+    src: url(bos.ttf);
+}
+@font-face {
+    font-family: cgl;
+    src: url(CocoGothic_Light.ttf);
+}
+@font-face {
+    font-family: ml;
+    src: url(Manrope-Light.otf);
+}
+@font-face {
+    font-family: mr;
+    src: url(Manrope-Regular.otf);
+}
+/*Navigation*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+.title{
+    font-size: 45px;
+    font-family: ml;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+nav ul{
+    list-style:none;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-top: 45px;
+ 
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: bos;
+}
+/*Hamburger Menu*/
+.menu-toggle{
+    display: none;
+}
+
+/*Header*/
+header{
+    display: flex;
+    padding: 0 11%;
+    padding-top: -80px;
+    align-items: center;
+}
+.p{
+    font-size: 210px;
+    margin: 130px 0;
+    font-family: mr;
+}
+.a{
+    font-size: 210px;
+    margin: 130px 0;
+    padding: 0 50px;
+    font-family: mr;
+}
+.t{
+    font-size: 210px;
+    margin: 130px 0;
+    padding-left: 50px;
+    font-family: mr;
+}
+.s{
+    background-image: url(image/pasta-fork-removebg-preview.png);
+    background-position: top;
+    background-size: 430px;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+.kotak{
+    background-color: black;
+    height: 640px;
+    width: 300px;
+    opacity: 0;
+}
+
+/*Profil1*/
+.textkiri{
+    width: 30%;
+    padding: 92px 100px;
+    background-color: #383B26;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    font-family: cgl;
+}
+.textkiri h2{
+    font-size: 35px;
+    padding-right: 100px;
+}
+.textkiri p{
+    font-size: 15px;
+    padding-right: 200px;
+}
+
+.textkiri ul{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 40px;
+}
+.textkiri li{
+    font-size: 15px;
+}
+.textkiri ul li:before{
+    background-color: unset;
+    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    margin-right: 40px;
+    height: 14px;
+    width: 14px;
+    border: 0.2px solid aliceblue;
+}
+.text-kanan{
+    background-image: url(Image/1680200.png);
+    background-position: right;
+    background-size: 140%;
+    width: 100%;
+    height: 584px;
+}
+/*Profil2*/
+.teks1{
+    font-size: 30px;
+    text-align: center;
+    margin: 70px 0;
+    font-family: ml;
+}
+.ap1{
+    text-align: center;
+}
+.ap2{
+    color: white;
+}
+.ap2-c{
+    color: #8C7B3F;
+}
+.list-about-photo{
+    display: flex;
+    margin: 0 12%;
+    font-family: ml;
+}
+.photo1{
+    background-image: url(Image/dovile-ramoskaite-xX9SmqQCbFY-unsplash.png);
+    width: 350px;
+    height: 180px;
+    background-size: 100%;
+}
+.photo2{
+    background-image:url(Image/131104_r24190.png);
+    width: 350px;
+    height: 180px;
+    background-size: 100%;
+}
+.photo3{
+    background-image: url(Image/dan-gold-5O1ddenSM4g-unsplash.png);
+    width: 350px;
+    height: 180px;
+    background-size: 100%;
+}
+.photo-sentence{
+    text-align: center;
+    margin-top: 40px;
+}
+
+/*Profil3*/
+.about3{
+    display: flex;
+    justify-content: space-between;
+    font-family: ml;
+}
+.about3-kiri{
+    width: 32%;
+    margin: 6% 12%;
+}
+.about3-kiri-t1{
+    font-size: 28px;
+    margin-bottom: 60px;
+    padding-right: 120px;
+}
+.about3-kiri-t2{
+    margin: 20px 0;
+    font-size: 15px;
+}
+.about3 img{
+    width: 50%;
+    height: 250px;
+    margin-top: 210px;
+    margin-right: 40px;
+}
+
+/*Menu*/
+.menu-title{
+    text-align: center;
+    margin: 20px 33%;
+    font-size: 40px;
+    font-family: mr;
+}
+.menu{
+    display: flex;
+    font-family: ml;
+}
+.menu-photo1 , .menu-photo2{
+    width: 25%;
+}
+.menu-photo1-1{
+    background-image: url(Image/Bruschetta-recipe.png);
+    width: 100%;
+    height: 700px;
+    background-size: 103%;
+    margin-bottom: 2210px;
+}
+.menu-photo1-2{
+    background-image: url(Image/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.png);
+    width: 100%;
+    height: 700px;
+    background-size: 103%;
+}
+.menu-photo2-1{
+    background-image: url(Image/Caesar-Salad-Recipe-3.png);
+    width: 100%;
+    height: 700px;
+    background-size: 103%;
+    margin-top: 1500px;
+}
+.menu-photo2-2{
+    background-image: url(Image/top-view-pepperoni-pizza-sliced-into-six-slices_141793-2157.png);
+    width: 100%;
+    height: 700px;
+    background-size: 103%;
+    margin-top: 2000px;
+}
+.menu-list{
+    width: 50%;
+    text-align: center;
+}
+.menu-list-title{
+    font-size: 30px;
+}
+.menu-list-food{
+    margin-left:11%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    display: flex;
+    width: 79%;
+    border-top: 1px solid #707070;
+}
+.menu-list-food:nth-child(7){
+    border-bottom: 1px solid #707070;
+}
+.menu-list-food-kiri{
+    text-align: left;
+    font-size: 16px;
+    margin-right: 8%;
+    width: 90%;
+}
+.menu-list-food-kiri p:nth-child(1){
+    font-size: 25px;
+}
+.menu-list-food-kiri p:nth-child(2){
+    width: 50%;
+    margin-bottom: -10px;
+    color: #707070;
+}
+.menu-list-food-kanan{
+    text-align: right;
+    margin-top: 55px;
+    color: #707070;
+}
+.soups-salad, .pasta , .pizza{
+    margin-top: 100px;
+}
+.book{
+    text-align: center;
+    font-family: ml;
+}
+.book button{
+    padding: 15px 25px;
+    background-color: #8F845E;
+    border: unset;
+    border-radius: 10px;
+    margin-top: 50px;
+    color: white;
+    margin-bottom: 100px;
+}
+/*History*/
+.place{
+    background-image: url(Image/1680200.png);
+    width: 100%;
+    height: 400px;
+    background-size: 100%;
+    border: unset;
+}
+.space{
+    display: flex;
+    margin-top: 80px;
+    font-family: ml;
+}
+.space-kiri{
+    width: 60%;
+    margin-left: 10%;
+    padding-right: 230px;
+    line-height: 2;
+}
+.space-kiri p:nth-child(1){
+    font-size: 35px;
+}
+.space-kiri p:nth-child(2){
+    margin-bottom: 50px;
+}
+.space-kiri p:nth-child(3){
+    margin-bottom: 240px;
+}
+.space-kanan{
+    background-image: url(Image/f9f924bba137b62b6b47cb035beff286.png);
+    height: 680px;
+    width: 60%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.button-circle{
+    display: flex;
+}
+.button-circle1{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #B7B49E;
+    margin-right: 15px;
+}
+.button-circle2{
+    height: 19px;
+    width: 19px;
+    border-radius: 50%;
+    background-color: unset;
+    border: 1px solid black;
+}
+/*Footer*/
+footer{
+    margin: 7%;
+    line-height: 1;
+}
+footer p{
+    font-size: 30px;
+    font-family: ml;
+}
+footer .c1{
+    color: #746114;
+}
+footer .c2{
+    color: white;
+}
+footer p:nth-child(3){
+    font-size: 17px;
+}
+.footer-space{
+    width: 7%;
+}
+.booking-table{
+    width: 100%;
+    border: 1px solid;
+}
+.booking-table1 , .booking-table2{
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.booking-table1-2 input{
+    background-color: unset;
+    border: unset;
+    font-size: 14px;
+    border-bottom: 1px solid black;
+    opacity: 0.8;
+    padding-right: 250px;
+    font-family: ml;
+}
+.booking-table1-1 input{
+    background-color: unset;
+    border: unset;
+    font-size: 14px;
+    border-bottom: 1px solid black;
+    opacity: 0.8;
+    margin-left: 88px;
+    padding-right: 250px;
+    margin-right: 80px;
+    font-family: ml;
+}
+.booking-table2-1 select , .booking-table2-2 select , .booking-table2-3 select{
+    background-color: unset;
+    border: unset;
+    margin-left: 88px;
+    padding-right: 150px;
+    font-size: 14px;
+    margin-right: 80px;
+    border-bottom: 1px solid;
+    opacity: 0.8;
+}
+.end{
+    background-color: #8F845E;
+    height: 200px;
+    width: 100%;
+}
+
