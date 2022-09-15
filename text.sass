@@ -56,10 +56,10 @@ header
     background-position: right
     background-size: 1900px
     width: 100%
-    height: 584px
+    height: 569px
     z-index: 0
 .textkiri
-    width: 30%
+    width: 450px
     padding: 93px 100px
     background-color: #383b26
     color: white
@@ -99,19 +99,22 @@ header
         color: #8c7b3f
 .list-about-photo
     display: flex
-    margin: 0 12%
     font-family: ml
+    .space-kiri
+        width: 20%
+    .space-kanan
+        width: 20%
     div
         .photo1
-            @include size(350px,180px)
+            @include size(350px,200px)
             background-image: url(Image/dovile-ramoskaite-xX9SmqQCbFY-unsplash.png)
             background-size: 100%
         .photo2
-            @include size(350px,180px)
+            @include size(350px,200px)
             background-image: url(Image/manusia.png)
             background-size: 100%
         .photo3
-            @include size(350px,180px)
+            @include size(350px,200px)
             background-image: url(Image/dan-gold-5O1ddenSM4g-unsplash.png)
             background-size: 100%
         .photo-sentence
@@ -222,7 +225,7 @@ header
     @include size(100%,400px)
     background-image: url(image/1680200.png)
     background-size: 100%
-    border: unset
+    background-repeat: no-repeat
 .space
     display: flex
     margin-top: 80px
@@ -279,23 +282,28 @@ footer
                 display: flex
                 padding-top: 100px
                 padding-bottom: 50px
+                .booking-table1-1,.booking-table1-2
+                    width: 40%
+                .booking-table2-1,.booking-table2-2
+                    width: 30%
                 .booking-table1-1 input
                     background-color: unset
                     border: unset
                     font-size: 14px
                     border-bottom: 1px solid black
                     opacity: 0.8
+                    padding-right: 50%
                     margin-left: 88px
-                    padding-right: 250px
                     margin-right: 80px
                     font-family: ml
                 .booking-table1-2 input
                     background-color: unset
+                    padding-right: 50%
+                    margin-left: 88px
                     border: unset
                     font-size: 14px
                     border-bottom: 1px solid black
                     opacity: 0.8
-                    padding-right: 250px
                     font-family: ml
                 .booking-table2-1 select , .booking-table2-2 select , .booking-table2-3 select
                     background-color: unset

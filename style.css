@@ -18,6 +18,7 @@ header .p, header .a, header .t {
   font-size: 210px;
   margin: 130px 0;
   font-family: mr;
+  font-weight: bolder;
 }
 
 body {
@@ -82,12 +83,12 @@ header .s .kotak {
   background-position: right;
   background-size: 1900px;
   width: 100%;
-  height: 584px;
+  height: 569px;
   z-index: 0;
 }
 
 .textkiri {
-  width: 30%;
+  width: 450px;
   padding: 93px 100px;
   background-color: #383b26;
   color: white;
@@ -140,23 +141,28 @@ header .s .kotak {
 
 .list-about-photo {
   display: flex;
-  margin: 0 12%;
   font-family: ml;
 }
+.list-about-photo .space-kiri {
+  width: 20%;
+}
+.list-about-photo .space-kanan {
+  width: 20%;
+}
 .list-about-photo div .photo1 {
-  height: 180px;
+  height: 200px;
   width: 350px;
   background-image: url(Image/dovile-ramoskaite-xX9SmqQCbFY-unsplash.png);
   background-size: 100%;
 }
 .list-about-photo div .photo2 {
-  height: 180px;
+  height: 200px;
   width: 350px;
   background-image: url(Image/manusia.png);
   background-size: 100%;
 }
 .list-about-photo div .photo3 {
-  height: 180px;
+  height: 200px;
   width: 350px;
   background-image: url(Image/dan-gold-5O1ddenSM4g-unsplash.png);
   background-size: 100%;
@@ -301,7 +307,7 @@ header .s .kotak {
   width: 100%;
   background-image: url(image/1680200.png);
   background-size: 100%;
-  border: unset;
+  background-repeat: no-repeat;
 }
 
 .space {
@@ -380,24 +386,31 @@ footer .container .booking-table .booking-table1, footer .container .booking-tab
   padding-top: 100px;
   padding-bottom: 50px;
 }
+footer .container .booking-table .booking-table1 .booking-table1-1, footer .container .booking-table .booking-table1 .booking-table1-2, footer .container .booking-table .booking-table2 .booking-table1-1, footer .container .booking-table .booking-table2 .booking-table1-2 {
+  width: 40%;
+}
+footer .container .booking-table .booking-table1 .booking-table2-1, footer .container .booking-table .booking-table1 .booking-table2-2, footer .container .booking-table .booking-table2 .booking-table2-1, footer .container .booking-table .booking-table2 .booking-table2-2 {
+  width: 30%;
+}
 footer .container .booking-table .booking-table1 .booking-table1-1 input, footer .container .booking-table .booking-table2 .booking-table1-1 input {
   background-color: unset;
   border: unset;
   font-size: 14px;
   border-bottom: 1px solid black;
   opacity: 0.8;
+  padding-right: 50%;
   margin-left: 88px;
-  padding-right: 250px;
   margin-right: 80px;
   font-family: ml;
 }
 footer .container .booking-table .booking-table1 .booking-table1-2 input, footer .container .booking-table .booking-table2 .booking-table1-2 input {
   background-color: unset;
+  padding-right: 50%;
+  margin-left: 88px;
   border: unset;
   font-size: 14px;
   border-bottom: 1px solid black;
   opacity: 0.8;
-  padding-right: 250px;
   font-family: ml;
 }
 footer .container .booking-table .booking-table1 .booking-table2-1 select, footer .container .booking-table .booking-table1 .booking-table2-2 select, footer .container .booking-table .booking-table1 .booking-table2-3 select, footer .container .booking-table .booking-table2 .booking-table2-1 select, footer .container .booking-table .booking-table2 .booking-table2-2 select, footer .container .booking-table .booking-table2 .booking-table2-3 select {
